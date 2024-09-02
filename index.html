@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/form.css">
+
+    <title>My First Blog</title>
+</head>
+
+<body>
+    <header>
+        <button class="button1 mode" style="color: orange;" value="light">&#9728</button>
+        <button class="button2 mode" value='dark'>&#127761</button>
+    </header>
+
+    <div class="grid-container">
+        <div class="col-1">
+            <img src="./images/MyFirstBlog.PNG" class="img" alt="image of a typewriter" />
+        </div>
+
+        <div class="col-2">
+            <h1>What's on your mind?</h1>
+            <form class="submission-form" id="blogForm">
+                <div>
+                    <label for="username">
+                        <h4>Username:</h4>
+                    </label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div>
+                    <label for="title">
+                        <h4>Title:</h4>
+                    </label>
+                    <input type="text" id="title" name="title">
+                </div>
+
+                <div>
+                    <label for="content">
+                        <h4>Content:</h4>
+                    </label>
+                    <input type="text" id="content" name="content">
+                </div>
+                <div>
+                    <button class="submit" type="submit" id="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+<script src="./js/logic.js"></script>
+<script src="./js/form.js"></script>
+
+</body>
+</html>
