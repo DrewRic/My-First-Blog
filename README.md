@@ -31,6 +31,9 @@ The blog page is pictured below.
 
 # Links
 
+https://drewric.github.io/My-First-Blog/
+
+https://github.com/DrewRic/My-First-Blog.git
 
 # Author
 
